@@ -18,7 +18,9 @@ gem 'jquery-rails'
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
+# Twitter bootstrap gem
 gem 'bootstrap-sass'
+# User gem
 gem 'devise'
 
 group :development, :test do
@@ -27,6 +29,7 @@ group :development, :test do
 end
 
 group :production do
+	# following for heroku
 	gem 'pg'
 	gem 'rails_12factor'
 end
