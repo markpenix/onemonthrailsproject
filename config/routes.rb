@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   # get 'pages/home'
   root 'pages#home' #set pages#home to index
-  get 'about' => "pages#about" #set pages#about as localhost/about
+  get 'about' => "pages#about" # creates about_path
 
 
   # The priority is based upon order of creation: first created -> highest priority.
